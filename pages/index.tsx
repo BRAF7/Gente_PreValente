@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="./solicitud_pendiente" className={styles.card}>
             <div className={styles.card_empresa}>
               <div className={styles.logo_empresa}>
                 <i className="fas fa-industry"></i>
