@@ -1,0 +1,142 @@
+.body{
+	font-family: sans-serif;
+	padding: 50px 20px 0;
+}
+.header{
+	background-color:#2e2e2e;
+	height:80px;
+	position: fixed;
+	width:100%;
+	top:0;
+	left:0;
+	
+}
+.image{
+	position: relative;
+	margin-top: 3px;
+	left: 55px;
+}
+
+.nav{
+	display:flex;
+	justify-content:space-between;
+
+
+}
+
+.nav_menu{
+	display:flex;
+	margin-right: 40px;
+	list-style: none;
+}
+.nav_menu_item{
+	color:white;
+	text-decoration: none;
+	font-size:18px;
+	margin: 0 10px;
+	line-height: 80px;
+	text-transform: uppercase;
+	width: max-content;
+}
+.nav_menu_link{
+	padding: 8px 12px;
+	border-radius:10px;
+	
+}
+
+.buscar{
+	position:fixed;
+	margin-top: 0;
+	border-radius:15px;
+	left: 720px;
+}
+.buscar_icon{
+	position:fixed;
+	margin-top: 0;
+	border-radius:15px;
+	left: 690px;
+}
+
+
+.nav_menu_link:hover{
+
+	background-color:#0872b9;
+	transition: 0.5s;
+	
+}
+
+
+.logo{
+	color:white;
+	text-decoration: none;
+	position: relative;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 40px;
+	line-height: 80px;
+	right: 350px;
+	width: max-content;
+}
+
+/* Burguer */
+.nav_toggle{
+	color: white;
+	font-size: 30px;
+	padding: 0 10px;
+	line-height: 60px;
+	display: none;
+}
+
+@media(max-width:768px){
+	.body{	
+		padding: 40px;
+	}
+	.header{
+		height:60px;
+	}
+	.logo{
+		position: relative;
+		font-size: 15px;
+		font-weight: bold;
+		left: 10px;
+	}
+	.image{
+		position: relative;
+		height: 50px;
+		width: 50px;
+		margin-top: 3px;
+		left: 55px;
+	}
+	
+	.nav_menu{
+		flex-direction: column;
+		align-items: center;
+		margin-right: 20px;
+		background-color: #152e4b;
+		position: fixed ;
+		left:0;
+		top: 60px;
+		width: 100%;	
+		padding: 20px 0; 
+		height: calc(100% - 60px);
+		/* We´re adding scrollable if we needed it*/
+		overflow-y: auto;
+		left: 100%;
+		transition: 0.3s;
+	}
+	.nav_menu_item{	
+		line-height: 60px;
+	}
+	
+	.nav_menu_link:hover{
+	
+		background:none;
+		color: #0872b9;
+	}
+	.nav_toggle{
+		display:block;
+	}
+	.nav_menu_visible{
+		left: 0;
+	}
+}

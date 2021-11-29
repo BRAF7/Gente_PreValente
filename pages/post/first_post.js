@@ -12,7 +12,7 @@ export default function FirstPost() {
       {/* We're using this in order to give a tittle to the window */}
       <Navbar></Navbar> 
       <head>
-        <title>First Post</title>
+        <title>Gente prevalente</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
