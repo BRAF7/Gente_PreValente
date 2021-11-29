@@ -17,6 +17,11 @@
 	left: 55px;
 }
 
+.logo_name{
+	display:flex;
+	justify-content:space-between;
+}
+
 .nav{
 	
 	display:flex;
@@ -75,7 +80,7 @@
 	font-weight: bold;
 	padding: 0 40px;
 	line-height: 80px;
-	right: 350px;
+	left: 30px;
 	width: max-content;
 }
 
@@ -101,7 +106,7 @@
 		position: relative;
 		font-size: 15px;
 		font-weight: bold;
-		left: 10px;
+		left: 55px;
 		bottom: 10px;
 	}
 	.image{

@@ -19,12 +19,14 @@ export const Navbar = () => {
       <body className={styles.body}>
         <header className={styles.header}>
           <nav className={styles.nav}>
-            <a className={styles.image}>
-              <Image src={logo} height={68} width={68} alt={"Mar"}></Image>
-            </a>
-            <a href="#" className={styles.logo}>
-              Gente PreValente
-            </a>
+            <div className={styles.logo_name}>
+              <a className={styles.image}>
+                <Image src={logo} height={68} width={68} alt={"Mar"}></Image>
+              </a>
+              <a href="#" className={styles.logo}>
+                Gente PreValente
+              </a>
+            </div>
             <button className={styles.nav_toggle}>
               <i class="fas fa-bars"></i>
             </button>
@@ -38,7 +40,6 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className={styles.nav_menu_item}>
-                
                 <button>
                   <i class="fas fa-cogs"></i>
                 </button>
@@ -48,7 +49,7 @@ export const Navbar = () => {
               </li>
               <li className={styles.nav_menu_item}>
                 <button>
-                  <i class="fas fa-briefcase" ></i>
+                  <i class="fas fa-briefcase"></i>
                 </button>
                 <a href="#" className={styles.nav_menu_link}>
                   Empleo

@@ -15,20 +15,23 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a href="./solicitud_pendiente" className={styles.card}>
-            <div className={styles.card_empresa}>
-              <div className={styles.logo_empresa}>
-                <i className="fas fa-industry"></i>
+          <Link href="./solicitud_pendiente">
+            <a className={styles.card}>
+              <div className={styles.card_empresa}>
+                <div className={styles.logo_empresa}>
+                  <i className="fas fa-industry"></i>
+                </div>
               </div>
-            </div>
-            <h2 className={styles.letras}>Solicitudes de creacion de empresas</h2>
-            <div className={styles.separador}></div>
-            <button className={styles.clock}>
-              <i className="fas fa-clock"></i>
-            </button>
-            <div className={styles.solicitudes}>2 solicitudes sin tratar</div>
-          </a>
-
+              <h2 className={styles.letras}>
+                Solicitudes de creacion de empresas
+              </h2>
+              <div className={styles.separador}></div>
+              <button className={styles.clock}>
+                <i className="fas fa-clock"></i>
+              </button>
+              <div className={styles.solicitudes}>2 solicitudes sin tratar</div>
+            </a>
+          </Link>
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
