@@ -5,11 +5,26 @@ import styles from "../styles/solicitud_pendiente.module.css";
 
 const solicitud_pendiente = () => {
   return (
-    <div>
+    <div className={styles.div_principal}>
       <Navbar></Navbar>
       <div className={styles.container_subtitle}>
         <h2 className={styles.subtitle}>Administración</h2>
         <h2 className={styles.subtitle_posActual}> / Aprobación de Empresas</h2>
+      </div>
+      <p className={styles.label_movil}>
+        Empresa 1 de 2 pendientes para aprobacion
+      </p>
+      <div className={styles.card_ok}>
+        <button className={styles.ok_arrow}>
+          <p className={styles.acept_empresa}>Aceptar empresa</p>
+          <i className="fas fa-check-circle"></i>
+        </button>
+      </div>
+      <div className={styles.card_no_ok}>
+        <button className={styles.no_ok_arrow}>
+          <p className={styles.no_acept_empresa}>Rechazar empresa</p>
+          <i className="fas fa-times"></i>
+        </button>
       </div>
       <button className={styles.arrow_left}>
         <i className="fas fa-chevron-left"></i>
@@ -42,6 +57,7 @@ const solicitud_pendiente = () => {
               </bottom>
               <div className={styles.archivos_letra}>Archivos adjuntos</div>
             </div>
+            <p className={styles.archive_movil}>Documentos cargados</p>
           </div>
         </a>
       </div>

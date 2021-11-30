@@ -93,9 +93,10 @@
 	padding: 0 10px;
 	line-height: 60px;
 	display: none;
+	left: -20px;
 }
 
-@media(max-width:768px){
+@media(max-width:1500px){
 	.body{	
 		padding: 40px;
 	}
@@ -106,7 +107,7 @@
 		position: relative;
 		font-size: 15px;
 		font-weight: bold;
-		left: 55px;
+		left: 25px;
 		bottom: 10px;
 	}
 	.image{
