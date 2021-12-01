@@ -1,9 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
+// Conexion DB
+import conectardb from "../lib/mongodb";
+// Models
+import Corporation from "../models/corporations";
 // Styles
 import styles from "../styles/solicitud_pendiente.module.css";
 
-const solicitud_pendiente = () => {
+export default function solicitud_pendiente(corporations) {
+  console.log(corporations);
   return (
     <div className={styles.div_principal}>
       <Navbar></Navbar>
@@ -40,15 +45,33 @@ const solicitud_pendiente = () => {
             </div>
           </div>
           <div className={styles.information}>
-            <h2 className={styles.letras}>Nombre de la empresa</h2>
+            <h2 className={styles.letras}>Empresa</h2>
+            {/* Back information */}
+            <h2 className={styles.letra_nombre}>
+              {corporations.corporations.name}
+            </h2>
             <div className={styles.separador_empresa}></div>
             <div className={styles.identificacion}>Tipo de identificacion</div>
+            {/* Back information */}
+            <h2 className={styles.letra_NIT}>
+              {corporations.corporations.NIT}
+            </h2>
             <div className={styles.separador_identificacion}></div>
+
             <div className={styles.num_empleados}> # de empleados</div>
+            {/* Back information */}
+            <h2 className={styles.letra_employe}>
+              {corporations.corporations.numero_empleados}
+            </h2>
             <div className={styles.separador_empleados}></div>
             <div className={styles.razon_social}>Razon social</div>
+            {/* Back information */}
+            <h2 className={styles.letra_social}>{corporations.corporations.razon_social}</h2>
             <div className={styles.separador_social}></div>
+
             <div className={styles.identificacion_empresa}>Identificacion</div>
+            {/* Back information */}
+            <h2 className={styles.letra_identification}>{corporations.corporations.identificacion}</h2>
             <div className={styles.separador_identificacion_empresa}></div>
 
             <div className={styles.card_archivos}>
@@ -63,6 +86,19 @@ const solicitud_pendiente = () => {
       </div>
     </div>
   );
-};
+}
 
-export default solicitud_pendiente;
+export async function getServerSideProps() {
+  await conectardb();
+  const res = await Corporation.find({});
+  var corporations = res.map((doc) => {
+    const corp = doc.toObject();
+    corp._id = `${corp._id}`;
+    return corp;
+  });
+  corporations = corporations[0];
+  console.log(corporations);
+  return {
+    props: { corporations },
+  };
+}
