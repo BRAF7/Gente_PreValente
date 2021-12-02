@@ -80,3 +80,8 @@ export default function Home() {
     </div>
   );
 }
+
+
+// &#75;&#101;&#116;&#122;&#97;
+// Twitter: @BrianTadeo1
+// Contact: brianflores.dev@gmail.com
