@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../styles/navbar.module.css";
 import Image from "next/image";
+import Link from "next/link";
 // We´re importing a image
 import logo from "../../public/images/logo.png";
 export const Navbar = () => {
@@ -13,7 +14,7 @@ export const Navbar = () => {
         ></meta>
         <script
           src="https://kit.fontawesome.com/b20e2ae983.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
       </head>
       <body className={styles.body}>
@@ -23,17 +24,17 @@ export const Navbar = () => {
               <a className={styles.image}>
                 <Image src={logo} height={68} width={68} alt={"Mar"}></Image>
               </a>
-              <a href="/" className={styles.logo}>
-                Gente PreValente
-              </a>
+              <Link href="/">
+                <a className={styles.logo}>Gente PreValente</a>
+              </Link>
             </div>
             <button className={styles.nav_toggle}>
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </button>
             <ul className={styles.nav_menu}>
               <li className={styles.nav_menu_item}>
                 <button className={styles.buscar_icon}>
-                  <i class="fas fa-search"></i>
+                  <i className="fas fa-search"></i>
                 </button>
                 <a href="#" className={styles.buscar}>
                   Buscar...
@@ -41,7 +42,7 @@ export const Navbar = () => {
               </li>
               <li className={styles.nav_menu_item}>
                 <button>
-                  <i class="fas fa-cogs"></i>
+                  <i className="fas fa-cogs"></i>
                 </button>
                 <a href="#" className={styles.nav_menu_link}>
                   Administracion
@@ -49,7 +50,7 @@ export const Navbar = () => {
               </li>
               <li className={styles.nav_menu_item}>
                 <button>
-                  <i class="fas fa-briefcase"></i>
+                  <i className="fas fa-briefcase"></i>
                 </button>
                 <a href="#" className={styles.nav_menu_link}>
                   Empleo
@@ -71,13 +72,13 @@ export const Navbar = () => {
               </li>
               <li className={styles.nav_menu_item}>
                 <button>
-                  <i class="fas fa-user-circle"></i>
+                  <i className="fas fa-user-circle"></i>
                 </button>
                 <a href="#" className={styles.nav_menu_link}>
-                  Daniel
+                  Mar
                 </a>
                 <button>
-                  <i class="fas fa-chevron-down"></i>
+                  <i className="fas fa-chevron-down"></i>
                 </button>
               </li>
             </ul>

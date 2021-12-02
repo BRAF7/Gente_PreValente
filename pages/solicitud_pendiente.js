@@ -29,7 +29,6 @@ var corpo = [];
 export default function solicitud_pendiente(corp) {
   corpo.push(corp);
   var corporations = corp.corporations[0];
-  console.log(corporations);
   return (
     <div className={styles.div_principal}>
       <Navbar></Navbar>
@@ -242,7 +241,6 @@ export async function getServerSideProps() {
 
 function get_information_right(corporations) {
   //Information that we´re giving
-  console.log(corporations[0].corporations[0]);
 
   var element = document.getElementById("nombre_empresa");
   var nit = document.getElementById("NIT");
@@ -301,7 +299,6 @@ function get_information_right(corporations) {
 
 function get_information_left(corporations) {
   //Information that we´re giving
-  console.log(corporations[0].corporations[0]);
 
   var element = document.getElementById("nombre_empresa");
   var nit = document.getElementById("NIT");
