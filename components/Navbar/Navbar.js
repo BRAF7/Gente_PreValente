@@ -56,18 +56,18 @@ export const Navbar = () => {
                   Empleo
                 </a>
                 <button>
-                  <i class="fas fa-chevron-down"></i>
+                  <i className="fas fa-chevron-down"></i>
                 </button>
               </li>
               <li className={styles.nav_menu_item}>
                 <button>
-                  <i class="far fa-file-alt"></i>
+                  <i className="far fa-file-alt"></i>
                 </button>
                 <a href="#" className={styles.nav_menu_link}>
                   Mi CV
                 </a>
                 <button>
-                  <i class="fas fa-chevron-down"></i>
+                  <i className="fas fa-chevron-down"></i>
                 </button>
               </li>
               <li className={styles.nav_menu_item}>
