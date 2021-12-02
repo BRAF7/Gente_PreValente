@@ -23,7 +23,7 @@ export const Navbar = () => {
               <a className={styles.image}>
                 <Image src={logo} height={68} width={68} alt={"Mar"}></Image>
               </a>
-              <a href="#" className={styles.logo}>
+              <a href="/" className={styles.logo}>
                 Gente PreValente
               </a>
             </div>
