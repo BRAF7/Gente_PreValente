@@ -123,8 +123,22 @@
   max-width: 150px;
 }
 
+.card_gestion {
+  font-size: 75px;
+  position: relative;
+  bottom: 40px;
+  right: 0;
+  background-color: rgb(50, 180, 255);
+  border-radius: 10px;
+  max-width: 150px;
+}
+
 .logo_empresa {
   margin-left: 40px;
+  color: white;
+}
+.logo_empresa_gestion {
+  margin-left: 35px;
   color: white;
 }
 
@@ -179,7 +193,7 @@
     margin: 0 0 1rem 0;
     font-size: 15px;
   }
-  
+
   .card p {
     margin: 0;
     font-size: 1.25rem;
@@ -194,18 +208,23 @@
     border-radius: 10px;
     max-width: 80px;
   }
-  
+
   .logo_empresa {
     margin-left: 15px;
     color: white;
   }
-  
-  .letras{
+
+  .logo_empresa_gestion {
+    margin-left: 12px;
+    color: white;
+  }
+  .letras {
     position: relative;
     left: 130px;
     width: 150px;
     bottom: 50px;
   }
+
   .separador {
     position: relative;
     border-top: 1px;
@@ -223,7 +242,7 @@
     left: 25px;
     bottom: 60px;
   }
-  
+
   .clock {
     color: gray;
     position: relative;

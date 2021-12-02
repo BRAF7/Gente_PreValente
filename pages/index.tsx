@@ -32,27 +32,48 @@ export default function Home() {
               <div className={styles.solicitudes}>2 solicitudes sin tratar</div>
             </a>
           </Link>
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="#" className={styles.card}>
+            <div className={styles.card_empresa}>
+              <div className={styles.logo_empresa}>
+              <i className="fas fa-chart-bar"></i>
+              </div>
+            </div>
+            <h2 className={styles.letras}>Indicadores</h2>
+            <div className={styles.separador}></div>
+              <button className={styles.clock}>
+                <i className="fas fa-clock"></i>
+              </button>
+              <div className={styles.solicitudes}>Ultima visita: 31/01/2020</div>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a className={styles.card}>
+            <div className={styles.card_empresa}>
+              <div className={styles.logo_empresa}>
+              <i className="fas fa-user-alt"></i>
+              </div>
+            </div>
+            <h2 className={styles.letras}>
+              Inscripcion de empleados
+            </h2>
+            <div className={styles.separador}></div>
+              <button className={styles.clock}>
+                <i className="fas fa-clock"></i>
+              </button>
+              <div className={styles.solicitudes}>3 usuarios sin empresa registrada</div>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="#" className={styles.card}>
+            <div className={styles.card_empresa}>
+              <div className={styles.logo_empresa_gestion}>
+              <i className="far fa-id-card"></i>
+              </div>
+            </div>
+            <h2 className={styles.letras}>Gestion de usuarios</h2>
+            <div className={styles.separador}></div>
+              <button className={styles.clock}>
+                <i className="fas fa-clock"></i>
+              </button>
+              <div className={styles.solicitudes}>532 usuarios activos en la plataforma</div>
           </a>
         </div>
       </main>
