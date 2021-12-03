@@ -153,8 +153,8 @@
 
 .ok_arrow {
   position: relative;
-  bottom: 38px;
-  right: 55px;
+  bottom: 45px;
+  right: 65px;
   font-size: 25px;
   color: green;
   background-color: transparent;
@@ -163,8 +163,8 @@
 
 .no_ok_arrow {
   position: relative;
-  bottom: 38px;
-  right: 60px;
+  bottom: 45px;
+  right: 70px;
   font-size: 25px;
   color: red;
   background-color: transparent;
@@ -291,7 +291,7 @@
   position: relative;
   font-size: 15px;
   left: 85px;
-  top: 20px;
+  top: 19px;
   font-weight: bold;
 }
 
@@ -299,7 +299,7 @@
   position: relative;
   font-size: 15px;
   left: 88px;
-  top: 20px;
+  top: 19px;
   font-weight: bold;
 }
 
