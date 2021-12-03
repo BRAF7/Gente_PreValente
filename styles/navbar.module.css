@@ -57,10 +57,11 @@
   margin-top: 0;
   border-radius: 15px;
   left: 490px;
-  top: 50px;
+  top: 45px;
   color: white;
   background-color: transparent;
   border: none;
+  font-size: 20px;
 }
 
 .nav_menu_link:hover {
