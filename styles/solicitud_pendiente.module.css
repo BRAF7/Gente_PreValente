@@ -174,7 +174,7 @@
 /* Separetors */
 .separador_identificacion {
   position: relative;
-  top: 270px;
+  top: 320px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -207,7 +207,7 @@
 }
 .separador_social {
   position: relative;
-  top: 85px;
+  top: 95px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -348,7 +348,7 @@
   position: relative;
   width: 180px;
   left: 555px;
-  top: 100px;
+  top: 85px;
 }
 .letra_identification {
   position: relative;
