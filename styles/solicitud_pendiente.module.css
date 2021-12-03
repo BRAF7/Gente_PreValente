@@ -238,7 +238,7 @@
 }
 .subtitle_posActual {
   position: relative;
-  bottom: 36px;
+  bottom: 34px;
   left: 184px;
   font-size: 25px;
 }
@@ -291,7 +291,7 @@
   position: relative;
   font-size: 15px;
   left: 85px;
-  top: 25px;
+  top: 18px;
   font-weight: bold;
 }
 
@@ -299,7 +299,7 @@
   position: relative;
   font-size: 15px;
   left: 88px;
-  top: 25px;
+  top: 35px;
   font-weight: bold;
 }
 
