@@ -29,9 +29,9 @@ export default function Home() {
                 Solicitudes de creacion de empresas
               </h2>
               <div className={styles.separador}></div>
-              <button className={styles.clock}>
+              <div className={styles.clock}>
                 <i className="fas fa-clock"></i>
-              </button>
+              </div>
               <div className={styles.solicitudes}>2 solicitudes sin tratar</div>
             </a>
           </Link>
