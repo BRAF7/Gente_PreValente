@@ -28,14 +28,10 @@
 }
 
 .nav_menu {
-  display: flex;
-  justify-content: space-between;
   margin-right: 40px;
   list-style: none;
 }
 .nav_menu_item {
-  display: flex;
-  justify-content: space-between;
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -62,11 +58,6 @@
   left: 690px;
   background-color: transparent;
   border: none;
-}
-
-.nav_menu_link:hover {
-  background-color: #0872b9;
-  transition: 0.5s;
 }
 
 .logo {
