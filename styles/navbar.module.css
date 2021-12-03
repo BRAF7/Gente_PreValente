@@ -81,6 +81,8 @@
 .boton{
 	background-color: transparent;
 	border: none;
+	color: white;
+	font-size: 12px;
 }
 
 /* Burguer */
