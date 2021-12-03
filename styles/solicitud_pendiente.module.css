@@ -185,7 +185,7 @@
 }
 .separador_empresa {
   position: relative;
-  top: 300px;
+  top: 240px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -273,7 +273,7 @@
 }
 .container_second_information{
   position: relative;
-  bottom: 70px;
+  bottom: 55px;
 }
 .letras {
   position: relative;
