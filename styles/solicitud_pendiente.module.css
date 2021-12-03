@@ -137,7 +137,7 @@
 .logo_archivos {
   font-size: 30px;
   position: relative;
-  top: 10px;
+  top: 0;
   color: rgb(50, 180, 255);
   background-color: transparent;
   border: none;
