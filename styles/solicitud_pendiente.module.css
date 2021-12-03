@@ -219,7 +219,7 @@
 }
 .separador_identificacion_empresa {
   position: relative;
-  top: 193px;
+  top: 123px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -246,14 +246,14 @@
   position: relative;
   left: 140px;
   width: 180px;
-  top: 430px;
+  top: 330px;
   color: gray;
 }
 .identificacion {
   position: relative;
   left: 140px;
   width: 160px;
-  top: 280px;
+  top: 240px;
   color: gray;
 }
 .razon_social {
@@ -354,7 +354,7 @@
   position: relative;
   width: 180px;
   left: 555px;
-  top: 108px;
+  top: 112px;
 }
 @media (max-width: 768px) {
   .div_principal {
