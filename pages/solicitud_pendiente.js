@@ -71,37 +71,37 @@ export default function solicitud_pendiente(corp) {
             </div>
           </div>
           <div className={styles.information}>
-            <h2 className={styles.letras}>Empresa</h2>
+            <p className={styles.letras}>Empresa</p>
             {/* Back information */}
-            <h2 className={styles.letra_nombre} id="nombre_empresa">
+            <p className={styles.letra_nombre} id="nombre_empresa">
               {corporations.name}
-            </h2>
+            </p>
             <div className={styles.separador_empresa}></div>
             <div className={styles.identificacion}>Tipo de identificacion</div>
             {/* Back information */}
-            <h2 className={styles.letra_NIT} id="NIT">
+            <p className={styles.letra_NIT} id="NIT">
               {corporations.NIT}
-            </h2>
+            </p>
             <div className={styles.separador_identificacion}></div>
 
             <div className={styles.num_empleados}> # de empleados</div>
             {/* Back information */}
-            <h2 className={styles.letra_employe} id="number_employee">
+            <p className={styles.letra_employe} id="number_employee">
               {corporations.numero_empleados}
-            </h2>
+            </p>
             <div className={styles.separador_empleados}></div>
             <div className={styles.razon_social}>Razon social</div>
             {/* Back information */}
-            <h2 className={styles.letra_social} id="razon_social">
+            <p className={styles.letra_social} id="razon_social">
               {corporations.razon_social}
-            </h2>
+            </p>
             <div className={styles.separador_social}></div>
 
             <div className={styles.identificacion_empresa}>Identificacion</div>
             {/* Back information */}
-            <h2 className={styles.letra_identification} id="identification">
+            <p className={styles.letra_identification} id="identification">
               {corporations.identificacion}
-            </h2>
+            </p>
             <div className={styles.separador_identificacion_empresa}></div>
 
             <div className={styles.card_archivos}>
