@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
+import Script from "next/script";
 import React from "react";
+import Head from "next/head";
 //Components
 import Navbar from "../components/Navbar/Navbar";
 // Conexion DB
@@ -31,6 +33,10 @@ export default function solicitud_pendiente(corp) {
   var corporations = corp.corporations[0];
   return (
     <div className={styles.div_principal}>
+      <Script
+        src="https://kit.fontawesome.com/b20e2ae983.js"
+        crossOrigin="anonymous"
+      ></Script>
       <Navbar></Navbar>
       <div className={styles.container_subtitle}>
         <h2 className={styles.subtitle}>Administración</h2>

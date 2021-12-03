@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../../styles/navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 // We´re importing a image
 import logo from "../../public/images/logo.png";
 export const Navbar = () => {
@@ -12,11 +13,11 @@ export const Navbar = () => {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
-        <script
-          src="https://kit.fontawesome.com/b20e2ae983.js"
-          crossOrigin="anonymous"
-        ></script>
       </head>
+      <Script
+        src="https://kit.fontawesome.com/b20e2ae983.js"
+        crossOrigin="anonymous"
+      ></Script>
       <body className={styles.body}>
         <header className={styles.header}>
           <nav className={styles.nav}>
