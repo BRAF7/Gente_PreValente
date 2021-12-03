@@ -253,7 +253,7 @@
   position: relative;
   left: 140px;
   width: 180px;
-  top: 240px;
+  top: 280px;
   color: gray;
 }
 .razon_social {
@@ -265,7 +265,7 @@
 }
 
 .identificacion_empresa {
-  top: 182px;
+  top: 142px;
   position: relative;
   left: 550px;
   width: 180px;
@@ -354,7 +354,7 @@
   position: relative;
   width: 180px;
   left: 555px;
-  top: 222px;
+  top: 168px;
 }
 @media (max-width: 768px) {
   .div_principal {
