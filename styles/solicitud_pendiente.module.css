@@ -174,7 +174,7 @@
 /* Separetors */
 .separador_identificacion {
   position: relative;
-  top: 280px;
+  top: 240px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -207,7 +207,7 @@
 }
 .separador_social {
   position: relative;
-  top: 100px;
+  top: 75px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -336,7 +336,7 @@
 .letra_NIT {
   position: relative;
   left: 145px;
-  top: 300px;
+  top: 280px;
 }
 
 .letra_employe {
@@ -348,7 +348,7 @@
   position: relative;
   width: 180px;
   left: 555px;
-  top: 160px;
+  top: 120px;
 }
 .letra_identification {
   position: relative;
