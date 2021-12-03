@@ -196,7 +196,7 @@
 }
 .separador_empleados {
   position: relative;
-  top: 480px;
+  top: 380px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -219,7 +219,7 @@
 }
 .separador_identificacion_empresa {
   position: relative;
-  top: 123px;
+  top: 113px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -253,7 +253,7 @@
   position: relative;
   left: 140px;
   width: 160px;
-  top: 240px;
+  top: 280px;
   color: gray;
 }
 .razon_social {
@@ -265,7 +265,7 @@
 }
 
 .identificacion_empresa {
-  top: 142px;
+  top: 152px;
   position: relative;
   left: 550px;
   width: 180px;
@@ -342,7 +342,7 @@
 .letra_employe {
   position: relative;
   left: 145px;
-  top: 470px;
+  top: 370px;
 }
 .letra_social {
   position: relative;
@@ -354,7 +354,7 @@
   position: relative;
   width: 180px;
   left: 555px;
-  top: 112px;
+  top: 128px;
 }
 @media (max-width: 768px) {
   .div_principal {
