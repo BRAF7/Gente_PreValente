@@ -246,7 +246,7 @@
   position: relative;
   left: 140px;
   width: 180px;
-  top: 330px;
+  top: 280px;
   color: gray;
 }
 .identificacion {
@@ -265,7 +265,7 @@
 }
 
 .identificacion_empresa {
-  top: 152px;
+  top: 202px;
   position: relative;
   left: 550px;
   width: 180px;
@@ -342,7 +342,7 @@
 .letra_employe {
   position: relative;
   left: 145px;
-  top: 370px;
+  top: 300px;
 }
 .letra_social {
   position: relative;
