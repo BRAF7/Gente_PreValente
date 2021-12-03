@@ -196,7 +196,7 @@
 }
 .separador_empleados {
   position: relative;
-  top: 380px;
+  top: 300px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -246,7 +246,7 @@
   position: relative;
   left: 140px;
   width: 180px;
-  top: 280px;
+  top: 310px;
   color: gray;
 }
 .identificacion {
@@ -265,7 +265,7 @@
 }
 
 .identificacion_empresa {
-  top: 202px;
+  top: 142px;
   position: relative;
   left: 550px;
   width: 180px;
