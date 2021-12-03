@@ -121,6 +121,8 @@
   top: 400px;
   left: 240px;
   color: gray;
+  background-color: transparent;
+  border: none;
 }
 
 .arrow_right {
@@ -128,6 +130,8 @@
   font-size: 80px;
   top: 400px;
   left: 1160px;
+  background-color: transparent;
+  border: none;
 }
 
 .logo_archivos {
@@ -135,12 +139,16 @@
   position: relative;
   bottom: 10px;
   color: rgb(50, 180, 255);
+  background-color: transparent;
+  border: none;
 }
 
 .clock {
   color: gray;
   position: relative;
   top: 21px;
+  background-color: transparent;
+  border: none;
 }
 
 .ok_arrow {
@@ -149,6 +157,8 @@
   right: 55px;
   font-size: 25px;
   color: green;
+  background-color: transparent;
+  border: none;
 }
 
 .no_ok_arrow {
@@ -157,6 +167,8 @@
   right: 60px;
   font-size: 25px;
   color: red;
+  background-color: transparent;
+  border: none;
 }
 
 /* Separetors */
