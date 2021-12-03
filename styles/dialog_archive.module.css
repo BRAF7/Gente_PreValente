@@ -79,6 +79,7 @@
   grid-auto-flow: row;
   grid-auto-columns: 0;
   white-space: pre-line;
+  background-color: transparent
 }
 /* Movil */
 .doc_charge_modal_movil {
@@ -125,5 +126,6 @@
     grid-auto-columns: 0;
     white-space: pre-line;
     display: block;
+    background-color: transparent
   }
 }
