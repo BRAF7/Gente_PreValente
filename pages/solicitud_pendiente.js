@@ -11,8 +11,7 @@ import Corporation from "../models/corporations";
 // Styles
 import styles from "../styles/solicitud_pendiente.module.css";
 import style_dialog from "../styles/dialog_archive.module.css";
-//shared
-// import get_information from "../shared/JS/information";
+
 
 const handleClick_right = (e) => {
   var aux = [];
