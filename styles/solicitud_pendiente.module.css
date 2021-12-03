@@ -174,7 +174,7 @@
 /* Separetors */
 .separador_identificacion {
   position: relative;
-  top: 280px;
+  top: 270px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -219,7 +219,7 @@
 }
 .separador_identificacion_empresa {
   position: relative;
-  top: 233px;
+  top: 193px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -354,7 +354,7 @@
   position: relative;
   width: 180px;
   left: 555px;
-  top: 128px;
+  top: 108px;
 }
 @media (max-width: 768px) {
   .div_principal {
