@@ -271,7 +271,10 @@
   width: 180px;
   color: gray;
 }
-
+.container_second_information{
+  position: relative;
+  bottom: 80px;
+}
 .letras {
   position: relative;
   left: 140px;

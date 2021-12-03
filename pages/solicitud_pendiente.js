@@ -90,19 +90,23 @@ export default function solicitud_pendiente(corp) {
               {corporations.numero_empleados}
             </p>
             <div className={styles.separador_empleados}></div>
-            <div className={styles.razon_social}>Razon social</div>
-            {/* Back information */}
-            <p className={styles.letra_social} id="razon_social">
-              {corporations.razon_social}
-            </p>
-            <div className={styles.separador_social}></div>
+            <div className={styles.container_second_information}>
+              <div className={styles.razon_social}>Razon social</div>
+              {/* Back information */}
+              <p className={styles.letra_social} id="razon_social">
+                {corporations.razon_social}
+              </p>
+              <div className={styles.separador_social}></div>
 
-            <div className={styles.identificacion_empresa}>Identificacion</div>
-            {/* Back information */}
-            <p className={styles.letra_identification} id="identification">
-              {corporations.identificacion}
-            </p>
-            <div className={styles.separador_identificacion_empresa}></div>
+              <div className={styles.identificacion_empresa}>
+                Identificacion
+              </div>
+              {/* Back information */}
+              <p className={styles.letra_identification} id="identification">
+                {corporations.identificacion}
+              </p>
+              <div className={styles.separador_identificacion_empresa}></div>
+            </div>
 
             <div className={styles.card_archivos}>
               <bottom className={styles.logo_archivos}>
