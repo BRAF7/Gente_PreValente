@@ -174,7 +174,7 @@
 /* Separetors */
 .separador_identificacion {
   position: relative;
-  top: 320px;
+  top: 290px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -207,7 +207,7 @@
 }
 .separador_social {
   position: relative;
-  top: 95px;
+  top: 89px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -253,7 +253,7 @@
   position: relative;
   left: 140px;
   width: 180px;
-  top: 280px;
+  top: 240px;
   color: gray;
 }
 .razon_social {
