@@ -174,7 +174,7 @@
 /* Separetors */
 .separador_identificacion {
   position: relative;
-  top: 390px;
+  top: 280px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -207,7 +207,7 @@
 }
 .separador_social {
   position: relative;
-  top: 140px;
+  top: 100px;
   border-top: 1px;
   background-color: rgb(228, 228, 228);
   width: 310px;
@@ -253,7 +253,7 @@
   position: relative;
   left: 140px;
   width: 180px;
-  top: 340px;
+  top: 280px;
   color: gray;
 }
 .razon_social {
@@ -336,7 +336,7 @@
 .letra_NIT {
   position: relative;
   left: 145px;
-  top: 380px;
+  top: 300px;
 }
 
 .letra_employe {
@@ -348,7 +348,7 @@
   position: relative;
   width: 180px;
   left: 555px;
-  top: 130px;
+  top: 160px;
 }
 .letra_identification {
   position: relative;
