@@ -68,7 +68,7 @@
   margin: 1rem;
   position: relative;
   left: 525px;
-  top: 328px;
+  top: 128px;
   padding-top: 12px;
   padding-left: 25px;
   padding-right: 25px;
@@ -265,7 +265,7 @@
 }
 
 .identificacion_empresa {
-  top: 142px;
+  top: 162px;
   position: relative;
   left: 550px;
   width: 180px;
