@@ -37,12 +37,12 @@ export const Navbar = () => {
                 <button className={styles.buscar_icon}>
                   <i className="fas fa-search"></i>
                 </button>
-                <a href="#" className={styles.buscar}>
+                <a href="#" className={styles.boton}>
                   Buscar...
                 </a>
               </li>
               <li className={styles.nav_menu_item}>
-                <button>
+                <button className={styles.boton}>
                   <i className="fas fa-cogs"></i>
                 </button>
                 <a href="#" className={styles.nav_menu_link}>
@@ -50,35 +50,35 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className={styles.nav_menu_item}>
-                <button>
+                <button className={styles.boton}>
                   <i className="fas fa-briefcase"></i>
                 </button>
                 <a href="#" className={styles.nav_menu_link}>
                   Empleo
                 </a>
-                <button>
+                <button className={styles.boton}>
                   <i className="fas fa-chevron-down"></i>
                 </button>
               </li>
               <li className={styles.nav_menu_item}>
-                <button>
+                <button className={styles.boton}>
                   <i className="far fa-file-alt"></i>
                 </button>
                 <a href="#" className={styles.nav_menu_link}>
                   Mi CV
                 </a>
-                <button>
+                <button className={styles.boton}>
                   <i className="fas fa-chevron-down"></i>
                 </button>
               </li>
               <li className={styles.nav_menu_item}>
-                <button>
+                <button className={styles.boton}>
                   <i className="fas fa-user-circle"></i>
                 </button>
                 <a href="#" className={styles.nav_menu_link}>
                   Mar
                 </a>
-                <button>
+                <button className={styles.boton}>
                   <i className="fas fa-chevron-down"></i>
                 </button>
               </li>

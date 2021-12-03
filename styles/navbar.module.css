@@ -1,152 +1,152 @@
-.body{
-	font-family: sans-serif;
-	padding: 50px 20px 0;
+.body {
+  font-family: sans-serif;
+  padding: 50px 20px 0;
 }
-.header{
-	background-color:#2e2e2e;
-	height:80px;
-	position: fixed;
-	width:100%;
-	top:0;
-	left:0;
-	z-index:1001;
+.header {
+  background-color: #2e2e2e;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1001;
 }
-.image{
-	position: relative;
-	margin-top: 3px;
-	left: 55px;
-}
-
-.logo_name{
-	display:flex;
-	justify-content:space-between;
+.image {
+  position: relative;
+  margin-top: 3px;
+  left: 55px;
 }
 
-.nav{
-	
-	display:flex;
-	justify-content:space-between;
+.logo_name {
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav_menu{
-	
-	display:flex;
-	margin-right: 40px;
-	list-style: none;
-}
-.nav_menu_item{
-	
-	color:white;
-	text-decoration: none;
-	font-size:18px;
-	margin: 0 10px;
-	line-height: 80px;
-	text-transform: uppercase;
-	width: max-content;
-}
-.nav_menu_link{
-	padding: 8px 12px;
-	border-radius:10px;
-	
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.buscar{
-	position:fixed;
-	margin-top: 0;
-	border-radius:15px;
-	left: 720px;
+.nav_menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
 }
-.buscar_icon{
-	position:fixed;
-	margin-top: 0;
-	border-radius:15px;
-	left: 690px;
+.nav_menu_item {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
 }
-
-
-.nav_menu_link:hover{
-
-	background-color:#0872b9;
-	transition: 0.5s;
-	
+.nav_menu_link {
+  padding: 8px 12px;
+  border-radius: 10px;
 }
 
+.buscar {
+  position: fixed;
+  margin-top: 0;
+  border-radius: 15px;
+  left: 720px;
+}
+.buscar_icon {
+  position: fixed;
+  margin-top: 0;
+  border-radius: 15px;
+  left: 690px;
+  background-color: transparent;
+  border: none;
+}
 
-.logo{
-	color:white;
-	text-decoration: none;
-	position: relative;
-	font-size: 30px;
-	font-weight: bold;
-	padding: 0 40px;
-	line-height: 80px;
-	left: 30px;
-	width: max-content;
+.nav_menu_link:hover {
+  background-color: #0872b9;
+  transition: 0.5s;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+  left: 30px;
+  width: max-content;
+}
+
+.boton{
+	background-color: transparent;
+	border: none;
 }
 
 /* Burguer */
-.nav_toggle{
-	position: relative;
-	bottom: 10px;
-	color: white;
-	font-size: 30px;
-	padding: 0 10px;
-	line-height: 60px;
-	display: none;
-	left: -20px;
+.nav_toggle {
+  position: relative;
+  bottom: 10px;
+  color: white;
+  font-size: 30px;
+  padding: 0 10px;
+  line-height: 60px;
+  display: none;
+  left: -20px;
+  background-color: transparent;
+  border: none;
 }
 
-@media(max-width:1500px){
-	.body{	
-		padding: 40px;
-	}
-	.header{
-		height:60px;
-	}
-	.logo{
-		position: relative;
-		font-size: 15px;
-		font-weight: bold;
-		left: 25px;
-		bottom: 10px;
-	}
-	.image{
-		position: relative;
-		height: 50px;
-		width: 50px;
-		margin-top: 3px;
-		left: 55px;
-	}
-	
-	.nav_menu{
-		flex-direction: column;
-		align-items: center;
-		margin-right: 20px;
-		background-color: #152e4b;
-		position: fixed ;
-		left:0;
-		top: 60px;
-		width: 100%;	
-		padding: 20px 0; 
-		height: calc(100% - 60px);
-		/* We´re adding scrollable if we needed it*/
-		overflow-y: auto;
-		left: 100%;
-		transition: 0.3s;
-	}
-	.nav_menu_item{	
-		line-height: 60px;
-	}
-	
-	.nav_menu_link:hover{
-	
-		background:none;
-		color: #0872b9;
-	}
-	.nav_toggle{
-		display:block;
-	}
-	.nav_menu_visible{
-		left: 0;
-	}
+@media (max-width: 1500px) {
+  .body {
+    padding: 40px;
+  }
+  .header {
+    height: 60px;
+  }
+  .logo {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    left: 25px;
+    bottom: 10px;
+  }
+  .image {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 3px;
+    left: 55px;
+  }
+
+  .nav_menu {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #152e4b;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+    height: calc(100% - 60px);
+    /* We´re adding scrollable if we needed it*/
+    overflow-y: auto;
+    left: 100%;
+    transition: 0.3s;
+  }
+  .nav_menu_item {
+    line-height: 60px;
+  }
+
+  .nav_menu_link:hover {
+    background: none;
+    color: #0872b9;
+  }
+  .nav_toggle {
+    display: block;
+  }
+  .nav_menu_visible {
+    left: 0;
+  }
 }
