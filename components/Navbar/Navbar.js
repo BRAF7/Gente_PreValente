@@ -34,10 +34,10 @@ export const Navbar = () => {
             </button>
             <ul className={styles.nav_menu}>
               <li className={styles.nav_menu_item}>
-                <button className={styles.buscar}>
+                <button className={styles.boton}>
                   <i className="fas fa-search"></i>
                 </button>
-                <a href="#" className={styles.boton}>
+                <a href="#" className={styles.buscar}>
                   Buscar...
                 </a>
               </li>
